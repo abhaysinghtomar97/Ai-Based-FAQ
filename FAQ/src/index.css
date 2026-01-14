@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    /* align-items:center; */
+    height: 80vh;
+    width: 50vw;
+    padding: 10px;
+
+}
+
+.header {
+    padding: 15px;
+    height: 30px;
+
+    background-color: rgb(63, 167, 132);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    /* margin:0px */
+}
+
+.main {
+    height: 60vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y:scroll;
+    padding: 25px;
+    
+}
+
+.input_area {
+    
+    padding: 7px;
+    background-color: rgb(210, 215, 215);
+
+}
+
+.msg.user {
+    background-color: #d27fb65e;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.msg.bot{
+    background-color: #7fb8d65e;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    /* align-self: flex-start; */
+}
+input:first-of-type {
+    width: 40vw;
+    height: 25px;
+}
+
+input {
+    margin-top: 10px;
+    height: 25px;
+    width: 20vw;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding:6px;
+}
+
+.quick-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+button{
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(63, 167, 132);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(33, 117, 82);
+}
+/* .msg.bot {
+    background-color: #7fb8d65e;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    align-self: flex-start;
+} */
+
+.input_btn_area{
+    display: flex;
+    gap: 10px;
+    
+}
+.send_btn{
+    width: 60px;
+    height: 40px;
+    margin-top:8px;
+}
